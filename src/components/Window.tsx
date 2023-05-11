@@ -24,7 +24,7 @@ export default function App() {
   	return (
     	<div>
       		<ul>
-        		<li>Width: <strong>{screenSize.width}</strong></li>
+        		<li>Width: <strong>{window.innerWidth}</strong></li>
         		<li>Height: <strong>{screenSize.height}</strong></li>
       		</ul>    
     	</div>
